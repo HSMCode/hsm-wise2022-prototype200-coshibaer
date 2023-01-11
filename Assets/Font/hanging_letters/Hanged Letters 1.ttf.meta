@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 18548b174bc1dfe4f9dee197ddb0c3af
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hanging Letters
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9a6fad4939320c649aa36f06b0b54416, type: 3}
+  - {fileID: 12800000, guid: f11fa230fff91d44fb8aa8d8e44e66c8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
