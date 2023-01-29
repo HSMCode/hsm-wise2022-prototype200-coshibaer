@@ -16,12 +16,12 @@ public class UpdateScoreTimer : MonoBehaviour
     public string scoreText = "GIFTS: ";
     private int currentScore = 0;
     public int addScore = 1;
-    public int winScore = 2;
+    public int winScore = 10;
 
     // variables for timer
     private Text timerUI;
     public string timerText = "TIME: ";
-    public float countRemaining = 50f;
+    public float countRemaining = 90f;
     private bool countingDown = true;
 
     // variables for result ui
@@ -36,6 +36,7 @@ public class UpdateScoreTimer : MonoBehaviour
 
     //variables for enemies
     public int destroyedEnemies;
+
 
 
     void Start()
@@ -57,16 +58,17 @@ public class UpdateScoreTimer : MonoBehaviour
     void Update()
     {
         CountdownTimer();
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            currentScore += addScore;
-            giftCountUI.text = scoreText + currentScore.ToString();
-        }
 
-        if(Input.GetKeyDown(KeyCode.R) && gameOver)
-        {
-            SceneManager.LoadScene(0);
-        }
+        //if(Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    currentScore += addScore;
+        //    giftCountUI.text = scoreText + currentScore.ToString();
+        //}
+
+        //if(Input.GetKeyDown(KeyCode.R) && gameOver)
+        //{
+        //    SceneManager.LoadScene(0);
+        //}
         
 
     }
